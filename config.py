@@ -21,7 +21,7 @@ class Config:
     OWNER_ID = int(os.environ.get('OWNER_ID', 1927018403))
     MONGO_URL = os.environ.get('MONGO_URL', 'mongodb+srv://wtfbruh:KontolXD#123@fsub.brzgete.mongodb.net/?retryWrites=true&w=majority&appName=fsub')
 
-    BOT_TOKEN = os.environ.get('BOT_TOKEN', '7625651439:AAHtJj_3CoSAhNi6CkH4lZgazEYLcn74ugE')
+    BOT_TOKEN = os.environ.get('BOT_TOKEN', '8081631132:AAGqF9iAYtLKzcr-4Z1X-_WyS011VkDY-Qk')
     DATABASE_ID = int(os.environ.get('DATABASE_ID', '-1002532922539'))
 
     BOT_ID = BOT_TOKEN.split(':', 1)[0]
